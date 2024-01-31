@@ -1,0 +1,6 @@
+code/Python_ipynb/build/*
+code/Python_ipynb/outputs/*
+
+*.DS_Store
+
+*.ipynb_checkpoints/*
