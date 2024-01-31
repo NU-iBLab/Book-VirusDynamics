@@ -1,0 +1,22 @@
+version: '3'
+services:
+  jupyterlab:
+    image: jupyterlab:python3
+    container_name: JupyterLab
+    build:
+      context: .
+      dockerfile: "Dockerfile"
+    user: root
+    volumes:
+      - ./:/home/JupyterLab
+    ports:
+      - "127.0.0.1:8888:8888"
+    environment:
+      TZ: Asia/Tokyo
+    command:
+      jupyter lab 
+          --ip=0.0.0.0
+          --allow-root
+          --no-browser
+          --NotebookApp.notebook_dir='/home/JupyterLab'
+          --NotebookApp.token='password'

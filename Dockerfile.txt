@@ -1,0 +1,106 @@
+FROM python:3
+USER root
+WORKDIR /usr/src/app
+ENV DEBIAN_FRONTEND noninteractive
+# 必要なパッケージを記載
+RUN apt-get update && apt-get install --no-install-recommends -y \
+    curl && \
+    apt-get clean
+
+# 必要なPythonパッケージを記載
+RUN python -m pip install --upgrade pip && pip install \ 
+    numpy \
+    scipy \
+    matplotlib \
+    ipython \
+    scikit-learn \
+    pandas \
+    pillow \
+    mglearn \
+    requests \
+    pyperclip \
+    beautifulsoup4 \
+    jupyterlab \
+    gillespy2 \
+    statsmodels \
+    ddeint
+
+# PyStan
+# https://httpstan.readthedocs.io/en/latest/installation.html
+RUN ARCH=$(dpkg --print-architecture); \
+    if [ "${ARCH}" = "arm64" ]; then \
+      git clone https://github.com/stan-dev/httpstan.git; \
+      cd /usr/src/app/httpstan; \
+      make; \
+      python3 -m pip install poetry; \
+      python3 -m poetry build; \
+      python3 -m pip install dist/*.whl; \
+      python3 -m pip install pystan nest_asyncio; \
+    else \
+      python3 -m pip install pystan nest_asyncio; \
+    fi
+
+# pyfreefem
+# https://pypi.org/project/pyfreefem/
+# https://cvxopt.org/install/index.html
+# https://github.com/cvxopt/cvxopt/issues/80
+RUN apt-get update && apt-get install --no-install-recommends -y \
+    libblas-dev liblapack-dev; \
+    wget https://people.engr.tamu.edu/davis/SuiteSparse/SuiteSparse-5.4.0.tar.gz; \
+    tar -xf SuiteSparse-5.4.0.tar.gz; \
+    export CVXOPT_SUITESPARSE_SRC_DIR=$(pwd)/SuiteSparse; \
+    python3 -m pip install pyfreefem
+
+# FreeFEM
+# https://doc.freefem.org/introduction/installation.html#compilation-on-ubuntu
+# Source: https://github.com/FreeFem/FreeFem-sources
+RUN ARCH=$(dpkg --print-architecture); \
+    if [ "${ARCH}" = "arm64" ]; then \
+      # arm64
+      apt-get update && apt-get install --no-install-recommends -y \
+      cpp freeglut3-dev g++ gcc gfortran \
+      m4 make patch pkg-config wget python unzip \
+      liblapack-dev libhdf5-dev libgsl-dev \
+      autoconf automake autotools-dev bison flex gdb git cmake mpich; \
+      # manual installation of NLopt
+      # https://nlopt.readthedocs.io/en/latest/#download-and-installation
+      wget https://github.com/stevengj/nlopt/archive/v2.7.1.tar.gz; \
+      tar -zxvf v2.7.1.tar.gz; \
+      cd nlopt-2.7.1; \
+      cmake . && make && make install; \
+      cd ../; \
+      # manual installation of Ipopt
+      # https://coin-or.github.io/Ipopt/INSTALL.html
+      git clone https://github.com/coin-or/Ipopt.git; \
+      cd Ipopt; mkdir build; cd build; \
+      ../configure; make && make install; \
+      cd ../../; \
+      cp -r /usr/local/include/coin-or/ /usr/local/include/coin; \
+      mv /usr/local/include/coin /usr/local/include/coin-or/coin; \
+      # FreeFEM
+      git clone https://github.com/FreeFem/FreeFem-sources.git; \
+      cd FreeFem-sources; \
+      autoreconf -i; \
+      ./configure --enable-download --enable-optim --with-nlopt-include='-I/usr/local/include/' --with-ipopt-include='-I/usr/local/include/coin-or/'; \
+      ./3rdparty/getall -a; \
+      make -j2 && make install; \
+    else \
+      # amd64
+      apt-get update && apt-get install --no-install-recommends -y \
+      gfortran libgsl-dev libhdf5-dev liblapack-dev libopenmpi-dev freeglut3-dev; \
+      wget https://github.com/FreeFem/FreeFem-sources/releases/download/v4.12/FreeFEM-4.12-amd64-ubuntu20.04.deb; \
+      dpkg -i FreeFEM-4.12-amd64-ubuntu20.04.deb; \
+    fi
+
+# R
+RUN apt-get update && apt-get install --no-install-recommends -y \
+    r-base \
+    r-base-dev && \
+    apt-get clean
+
+RUN R -e "install.packages('IRkernel')"; \
+    R -e "IRkernel::installspec()"; \
+    R -e "install.packages(c('ggplot2', 'deSolve'))"
+
+RUN jupyter serverextension enable --py jupyterlab
+ENV DEBIAN_FRONTEND dialog
