@@ -125,6 +125,7 @@ Google ColaboratoryとBinderで利用できるようにファイル群やボタ�
     + Python_ipynb/ ## Pythonコードファイルの格納場所
     + R_ipynb/ ## R（Jupyter利用）コードファイルの格納場所
     + R/ ## Rコードファイルの格納場所
+- assets/ ## コードの中に表示する画像ファイルなど
 - README.md ## このファイル
 - DockerFile ## Dockerで起動するJupyterLab用のファイル
 - docker-compose.yml ## Dockerで起動するJupyterLab用のファイル
