@@ -1,12 +1,14 @@
-# サポートページ：ウイルス感染の数理モデルとシミュレーション ―データを定量的に理解する
+# サポートページ：ウイルス感染の数理モデルとシミュレーション ―データを定量的に理解する―
 
+<!--
 Google Colabratory [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NU-iBLab/Book-VirusDynamics)  
 Jupyter（Binder） [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/NU-iBLab/Book-VirusDynamics/main)  
 RStudio（Binder） [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/NU-iBLab/Book-VirusDynamics/main?urlpath=rstudio)
+-->
 
 ## このリポジトリについて
 
-『ウイルス感染の数理モデルとシミュレーション ―データを定量的に理解する』のサポートページとして、本書に記載のコードを公開するリポジトリです。
+『ウイルス感染の数理モデルとシミュレーション ―データを定量的に理解する―』のサポートページとして、本書に記載のコードを公開するリポジトリです。
 
 目次の後に使い方等の補足を載せています。
 
@@ -15,84 +17,144 @@ RStudio（Binder） [![Binder](https://mybinder.org/badge_logo.svg)](https://myb
 
 ### 第2章
 
-- コード2-1：関数プロットの実装
+- コード2-1：関数プロットの実装  
+本文：15ページ
   - [Python (notebook)](./code/Python_ipynb/02_01.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NU-iBLab/Book-VirusDynamics/code/Python_ipynb.02_01.ipynb)
   - [R (notebook)](./code/R_ipynb/02_01.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NU-iBLab/Book-VirusDynamics/code/R_ipynb/02_01.ipynb)
+
+<!--
   - [R](./code/R/02_01.R)
+-->
   
-- コード2-2：最小二乗法によるパラメータ推定の実装
+- コード2-2：最小二乗法によるパラメータ推定の実装  
+本文：16ページ、50ページ、59ページ
   - [Python (notebook)](./code/Python_ipynb/02_02.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NU-iBLab/Book-VirusDynamics/code/Python_ipynb/02_02.ipynb)
   - [R (notebook)](./code/R_ipynb/02_02.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NU-iBLab/Book-VirusDynamics/code/R_ipynb/02_02.ipynb)
+
+<!--
   - [R](./code/R/02_02.R)
+-->
   
-- コード2-3：線形常微分方程式の数値計算の実装
+- コード2-3：線形常微分方程式の数値計算の実装  
+本文：20ページ
   - [Python (notebook)](./code/Python_ipynb/02_03.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NU-iBLab/Book-VirusDynamics/code/Python_ipynb/02_03.ipynb)
   - [R (notebook)](./code/R_ipynb/02_03.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NU-iBLab/Book-VirusDynamics/code/R_ipynb/02_03.ipynb)
+
+<!--
   - [R](./code/R/02_03.R)
+-->
   
 - コード2-4：非線形常微分方程式の数値計算の実装  
+本文：21ページ
   - [Python (notebook)](./code/Python_ipynb/02_04.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NU-iBLab/Book-VirusDynamics/code/Python_ipynb/02_04.ipynb)
   - [R (notebook)](./code/R_ipynb/02_04.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NU-iBLab/Book-VirusDynamics/code/R_ipynb/02_04.ipynb)
+
+<!--
   - [R](./code/R/02_04.R)
+-->
 
 ### 第3章
 
 - コード3-1：ギレスピーアルゴリズムによる確率シミュレーションの実装  
+本文：51ページ、62ページ
   - [Python (notebook)](./code/Python_ipynb/03_01.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NU-iBLab/Book-VirusDynamics/code/Python_ipynb/03_01.ipynb)
   - [R (notebook)](./code/R_ipynb/03_01.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NU-iBLab/Book-VirusDynamics/code/R_ipynb/03_01.ipynb)
+
+<!--
   - [R](./code/R/03_01.R)
+-->
   
 - コード3-2：各種回帰モデルの実装  
+本文：60ページ
   - [Python (notebook)](./code/Python_ipynb/03_02.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NU-iBLab/Book-VirusDynamics/code/Python_ipynb/03_02.ipynb)
   - [R (notebook)](./code/R_ipynb/03_02.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NU-iBLab/Book-VirusDynamics/code/R_ipynb/03_02.ipynb)
+
+<!--
   - [R](./code/R/03_02.R)
+-->
 
 ### 第4章
 
 - コード4-1：時間遅れをもつ微分方程式の数値計算の実装  
+本文：79ページ
   - [Python (notebook)](./code/Python_ipynb/04_01.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NU-iBLab/Book-VirusDynamics/code/Python_ipynb/04_01.ipynb)
   - [R (notebook)](./code/R_ipynb/04_01.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NU-iBLab/Book-VirusDynamics/code/R_ipynb/04_01.ipynb)
+
+<!--
   - [R](./code/R/04_01.R)
+-->
 
 ### 第5章
 
 - コード5-1：MCMCを用いたベイズ推定の実装  
+本文：39ページ、97ページ、122ページ、140ページ、179ページ、213ページ
   - [Python (notebook)](./code/Python_ipynb/05_01.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NU-iBLab/Book-VirusDynamics/code/Python_ipynb/05_01.ipynb)
   - [R (notebook)](./code/R_ipynb/05_01.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NU-iBLab/Book-VirusDynamics/code/R_ipynb/05_01.ipynb)
+
+<!--
   - [R](./code/R/05_01.R)
+-->
   
 - コード5-2：拡散方程式の数値計算の実装  
+本文：134ページ
   - [Python (notebook)](./code/Python_ipynb/05_02.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NU-iBLab/Book-VirusDynamics/code/Python_ipynb/05_02.ipynb)
   - [R (notebook)](./code/R_ipynb/05_02.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NU-iBLab/Book-VirusDynamics/code/R_ipynb/05_02.ipynb)
+
+<!--
   - [R](./code/R/05_02.R)
+-->
 
 ### 第7章
 
 - コード7-1：偏微分方程式の数値計算の実装  
+本文：182ページ
   - [Python (notebook)](./code/Python_ipynb/07_01.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NU-iBLab/Book-VirusDynamics/code/Python_ipynb/07_01.ipynb)
+
+<!--
   - [R (notebook)](./code/R_ipynb/07_01.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NU-iBLab/Book-VirusDynamics/code/R_ipynb/07_01.ipynb)
   - [R](./code/R/07_01.R)
+-->
   
 - コード7-2：個体ベースシミュレーションの数値計算の実装  
+本文：194ページ
+
+<!--
   - [Python (notebook)](./code/Python_ipynb/07_02.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NU-iBLab/Book-VirusDynamics/code/Python_ipynb/07_02.ipynb)
+-->
+
   - [R (notebook)](./code/R_ipynb/07_02.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NU-iBLab/Book-VirusDynamics/code/R_ipynb/07_02.ipynb)
+
+<!--
   - [R](./code/R/07_02.R)
+-->
 
 
 ### 第8章
 
 - コード8-1：NLMEMを用いたパラメータ推定の実装  
+本文：222ページ
+<!--
   - [Python (notebook)](./code/Python_ipynb/08_01.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NU-iBLab/Book-VirusDynamics/code/Python_ipynb/08_01.ipynb)
+-->
   - [R (notebook)](./code/R_ipynb/08_01.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NU-iBLab/Book-VirusDynamics/code/R_ipynb/08_01.ipynb)
+
+<!--
   - [R](./code/R/08_01.R)
+-->
 
 
 ### 第9章
 
 - コード9-1：ランダムフォレストの実装  
+本文：272ページ
+<!--
   - [Python (notebook)](./code/Python_ipynb/09_01.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NU-iBLab/Book-VirusDynamics/code/Python_ipynb/09_01.ipynb)
+-->
   - [R (notebook)](./code/R_ipynb/09_01.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NU-iBLab/Book-VirusDynamics/code/R_ipynb/09_01.ipynb)
+
+<!--
   - [R](./code/R/09_01.R)
+-->
   
 
 ## 補足
@@ -114,7 +176,7 @@ Pythonは機械学習などによるデータ解析によく使われている�
 - RStudio
   - https://en.wikipedia.org/wiki/RStudio
   
-Google ColaboratoryとBinderで利用できるようにファイル群やボタンを用意しましたが、基本的には自身のPC等で環境を整えて利用する方が良いです。
+Google Colaboratory（とBinder準備中）で利用できるようにファイル群やボタンを用意しましたが、基本的には自身のPC等で環境を整えて利用する方が良いです。
 
 
 ### このリポジトリの構造
@@ -143,6 +205,8 @@ Google ColaboratoryとBinderで利用できるようにファイル群やボタ�
 - [Google Colaboratory](https://colab.research.google.com/)
 
 #### Binderの利用
+
+*準備中*
 
 JupyterLabとRStudioを以下のボタンから利用できます。
 
@@ -179,6 +243,8 @@ Rで書かれた`.ipynb`の拡張子を持つファイル（`./code/R_ipynb`）�
 
 #### DockerからJupyterLabを起動して利用
 
+*準備中*
+
 リポジトリの全てのファイルをダウンロードして好きな場所に保存します。terminal等で保存したディレクトリに移動します。[docker-compose.yml](./docker-compose.yml)を編集します。以下の`password`となっているトークンを任意の文字列に変更します。
 
 ```yml:docker-combose.yml
@@ -206,18 +272,13 @@ $ docker-compose up
 
 ### 利用しているPackages、Libraries
 
-
 #### Python
 
-NumPy, Pnadas, PyStan, 
+NumPy, Pnadas, PyStan, matplotlib, statsmodels, scipy, nest_asyncio, gillespy2, time, ddeint, scikit-learn
 
 #### R
 
-deSolve, ggplot2
-
-#### Others
-
-FreeFEM
+deSolve, ggplot2, patchwork, GillespieSSA2, tidyr, dplyr, doParallel, MASS, rstan
 
 ---
 
@@ -234,3 +295,5 @@ FreeFEM
 岩波翔也  
 iwanami.iblab[at]bio.nagoya-u.ac.jp  
 [@iwanaminami](https://github.com/iwanaminami)
+
+間違いや改善点などがございましたらご連絡ください。

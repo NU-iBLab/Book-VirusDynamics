@@ -1,0 +1,19 @@
+DESCRIPTION: 
+Model for data analysis of viral load in NLMEM
+
+
+[LONGITUDINAL]
+
+input = {beta, gamma delta, V0}
+
+EQUATION:
+
+TC_0 = 1
+VL_0 = V0
+
+ddt_TC = - beta*TC*VL
+ddt_VL = gamma*TC*VL - delta*VL
+
+
+OUTPUT:
+output = {VL}

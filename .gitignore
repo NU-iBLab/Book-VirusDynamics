@@ -1,5 +1,10 @@
+tmp/*
+
 code/Python_ipynb/build/*
 code/Python_ipynb/outputs/*
+
+code/R_ipynb/build/*
+code/R_ipynb/outputs/*
 
 *.DS_Store
 
