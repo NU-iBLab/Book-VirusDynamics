@@ -19,8 +19,8 @@ RStudio（Binder） [![Binder](https://mybinder.org/badge_logo.svg)](https://myb
 
 - コード2-1：関数プロットの実装  
 本文：15ページ
-  - [Python (notebook)](./code/Python_ipynb/02_01.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NU-iBLab/Book-VirusDynamics/code/Python_ipynb.02_01.ipynb)
-  - [R (notebook)](./code/R_ipynb/02_01.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NU-iBLab/Book-VirusDynamics/code/R_ipynb/02_01.ipynb)
+  - [Python (notebook)](./code/Python_ipynb/02_01.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NU-iBLab/Book-VirusDynamics/blob/main/code/Python_ipynb/02_01.ipynb)
+  - [R (notebook)](./code/R_ipynb/02_01.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NU-iBLab/Book-VirusDynamics/blob/main/code/R_ipynb/02_01.ipynb)
 
 <!--
   - [R](./code/R/02_01.R)
@@ -28,8 +28,8 @@ RStudio（Binder） [![Binder](https://mybinder.org/badge_logo.svg)](https://myb
   
 - コード2-2：最小二乗法によるパラメータ推定の実装  
 本文：16ページ、50ページ、59ページ
-  - [Python (notebook)](./code/Python_ipynb/02_02.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NU-iBLab/Book-VirusDynamics/code/Python_ipynb/02_02.ipynb)
-  - [R (notebook)](./code/R_ipynb/02_02.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NU-iBLab/Book-VirusDynamics/code/R_ipynb/02_02.ipynb)
+  - [Python (notebook)](./code/Python_ipynb/02_02.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NU-iBLab/Book-VirusDynamics/blob/main/code/Python_ipynb/02_02.ipynb)
+  - [R (notebook)](./code/R_ipynb/02_02.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NU-iBLab/Book-VirusDynamics/blob/main/code/R_ipynb/02_02.ipynb)
 
 <!--
   - [R](./code/R/02_02.R)
@@ -37,8 +37,8 @@ RStudio（Binder） [![Binder](https://mybinder.org/badge_logo.svg)](https://myb
   
 - コード2-3：線形常微分方程式の数値計算の実装  
 本文：20ページ
-  - [Python (notebook)](./code/Python_ipynb/02_03.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NU-iBLab/Book-VirusDynamics/code/Python_ipynb/02_03.ipynb)
-  - [R (notebook)](./code/R_ipynb/02_03.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NU-iBLab/Book-VirusDynamics/code/R_ipynb/02_03.ipynb)
+  - [Python (notebook)](./code/Python_ipynb/02_03.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NU-iBLab/Book-VirusDynamics/blob/main/code/Python_ipynb/02_03.ipynb)
+  - [R (notebook)](./code/R_ipynb/02_03.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NU-iBLab/Book-VirusDynamics/blob/main/code/R_ipynb/02_03.ipynb)
 
 <!--
   - [R](./code/R/02_03.R)
@@ -46,8 +46,8 @@ RStudio（Binder） [![Binder](https://mybinder.org/badge_logo.svg)](https://myb
   
 - コード2-4：非線形常微分方程式の数値計算の実装  
 本文：21ページ
-  - [Python (notebook)](./code/Python_ipynb/02_04.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NU-iBLab/Book-VirusDynamics/code/Python_ipynb/02_04.ipynb)
-  - [R (notebook)](./code/R_ipynb/02_04.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NU-iBLab/Book-VirusDynamics/code/R_ipynb/02_04.ipynb)
+  - [Python (notebook)](./code/Python_ipynb/02_04.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NU-iBLab/Book-VirusDynamics/blob/main/code/Python_ipynb/02_04.ipynb)
+  - [R (notebook)](./code/R_ipynb/02_04.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NU-iBLab/Book-VirusDynamics/blob/main/code/R_ipynb/02_04.ipynb)
 
 <!--
   - [R](./code/R/02_04.R)
@@ -57,8 +57,8 @@ RStudio（Binder） [![Binder](https://mybinder.org/badge_logo.svg)](https://myb
 
 - コード3-1：ギレスピーアルゴリズムによる確率シミュレーションの実装  
 本文：51ページ、62ページ
-  - [Python (notebook)](./code/Python_ipynb/03_01.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NU-iBLab/Book-VirusDynamics/code/Python_ipynb/03_01.ipynb)
-  - [R (notebook)](./code/R_ipynb/03_01.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NU-iBLab/Book-VirusDynamics/code/R_ipynb/03_01.ipynb)
+  - [Python (notebook)](./code/Python_ipynb/03_01.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NU-iBLab/Book-VirusDynamics/blob/main/code/Python_ipynb/03_01.ipynb)
+  - [R (notebook)](./code/R_ipynb/03_01.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NU-iBLab/Book-VirusDynamics/blob/main/code/R_ipynb/03_01.ipynb)
 
 <!--
   - [R](./code/R/03_01.R)
@@ -66,8 +66,8 @@ RStudio（Binder） [![Binder](https://mybinder.org/badge_logo.svg)](https://myb
   
 - コード3-2：各種回帰モデルの実装  
 本文：60ページ
-  - [Python (notebook)](./code/Python_ipynb/03_02.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NU-iBLab/Book-VirusDynamics/code/Python_ipynb/03_02.ipynb)
-  - [R (notebook)](./code/R_ipynb/03_02.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NU-iBLab/Book-VirusDynamics/code/R_ipynb/03_02.ipynb)
+  - [Python (notebook)](./code/Python_ipynb/03_02.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NU-iBLab/Book-VirusDynamics/blob/main/code/Python_ipynb/03_02.ipynb)
+  - [R (notebook)](./code/R_ipynb/03_02.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NU-iBLab/Book-VirusDynamics/blob/main/code/R_ipynb/03_02.ipynb)
 
 <!--
   - [R](./code/R/03_02.R)
@@ -77,8 +77,8 @@ RStudio（Binder） [![Binder](https://mybinder.org/badge_logo.svg)](https://myb
 
 - コード4-1：時間遅れをもつ微分方程式の数値計算の実装  
 本文：79ページ
-  - [Python (notebook)](./code/Python_ipynb/04_01.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NU-iBLab/Book-VirusDynamics/code/Python_ipynb/04_01.ipynb)
-  - [R (notebook)](./code/R_ipynb/04_01.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NU-iBLab/Book-VirusDynamics/code/R_ipynb/04_01.ipynb)
+  - [Python (notebook)](./code/Python_ipynb/04_01.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NU-iBLab/Book-VirusDynamics/blob/main/code/Python_ipynb/04_01.ipynb)
+  - [R (notebook)](./code/R_ipynb/04_01.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NU-iBLab/Book-VirusDynamics/blob/main/code/R_ipynb/04_01.ipynb)
 
 <!--
   - [R](./code/R/04_01.R)
@@ -88,8 +88,8 @@ RStudio（Binder） [![Binder](https://mybinder.org/badge_logo.svg)](https://myb
 
 - コード5-1：MCMCを用いたベイズ推定の実装  
 本文：39ページ、97ページ、122ページ、140ページ、179ページ、213ページ
-  - [Python (notebook)](./code/Python_ipynb/05_01.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NU-iBLab/Book-VirusDynamics/code/Python_ipynb/05_01.ipynb)
-  - [R (notebook)](./code/R_ipynb/05_01.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NU-iBLab/Book-VirusDynamics/code/R_ipynb/05_01.ipynb)
+  - [Python (notebook)](./code/Python_ipynb/05_01.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NU-iBLab/Book-VirusDynamics/blob/main/code/Python_ipynb/05_01.ipynb)
+  - [R (notebook)](./code/R_ipynb/05_01.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NU-iBLab/Book-VirusDynamics/blob/main/code/R_ipynb/05_01.ipynb)
 
 <!--
   - [R](./code/R/05_01.R)
@@ -97,8 +97,8 @@ RStudio（Binder） [![Binder](https://mybinder.org/badge_logo.svg)](https://myb
   
 - コード5-2：拡散方程式の数値計算の実装  
 本文：134ページ
-  - [Python (notebook)](./code/Python_ipynb/05_02.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NU-iBLab/Book-VirusDynamics/code/Python_ipynb/05_02.ipynb)
-  - [R (notebook)](./code/R_ipynb/05_02.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NU-iBLab/Book-VirusDynamics/code/R_ipynb/05_02.ipynb)
+  - [Python (notebook)](./code/Python_ipynb/05_02.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NU-iBLab/Book-VirusDynamics/blob/main/code/Python_ipynb/05_02.ipynb)
+  - [R (notebook)](./code/R_ipynb/05_02.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NU-iBLab/Book-VirusDynamics/blob/main/code/R_ipynb/05_02.ipynb)
 
 <!--
   - [R](./code/R/05_02.R)
@@ -108,7 +108,7 @@ RStudio（Binder） [![Binder](https://mybinder.org/badge_logo.svg)](https://myb
 
 - コード7-1：偏微分方程式の数値計算の実装  
 本文：182ページ
-  - [Python (notebook)](./code/Python_ipynb/07_01.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NU-iBLab/Book-VirusDynamics/code/Python_ipynb/07_01.ipynb)
+  - [Python (notebook)](./code/Python_ipynb/07_01.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NU-iBLab/Book-VirusDynamics/blob/main/code/Python_ipynb/07_01.ipynb)
 
 <!--
   - [R (notebook)](./code/R_ipynb/07_01.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NU-iBLab/Book-VirusDynamics/code/R_ipynb/07_01.ipynb)
@@ -122,7 +122,7 @@ RStudio（Binder） [![Binder](https://mybinder.org/badge_logo.svg)](https://myb
   - [Python (notebook)](./code/Python_ipynb/07_02.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NU-iBLab/Book-VirusDynamics/code/Python_ipynb/07_02.ipynb)
 -->
 
-  - [R (notebook)](./code/R_ipynb/07_02.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NU-iBLab/Book-VirusDynamics/code/R_ipynb/07_02.ipynb)
+  - [R (notebook)](./code/R_ipynb/07_02.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NU-iBLab/Book-VirusDynamics/blob/main/code/R_ipynb/07_02.ipynb)
 
 <!--
   - [R](./code/R/07_02.R)
@@ -136,7 +136,7 @@ RStudio（Binder） [![Binder](https://mybinder.org/badge_logo.svg)](https://myb
 <!--
   - [Python (notebook)](./code/Python_ipynb/08_01.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NU-iBLab/Book-VirusDynamics/code/Python_ipynb/08_01.ipynb)
 -->
-  - [R (notebook)](./code/R_ipynb/08_01.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NU-iBLab/Book-VirusDynamics/code/R_ipynb/08_01.ipynb)
+  - [R (notebook)](./code/R_ipynb/08_01.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NU-iBLab/Book-VirusDynamics/blob/main/code/R_ipynb/08_01.ipynb)
 
 <!--
   - [R](./code/R/08_01.R)
@@ -150,7 +150,7 @@ RStudio（Binder） [![Binder](https://mybinder.org/badge_logo.svg)](https://myb
 <!--
   - [Python (notebook)](./code/Python_ipynb/09_01.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NU-iBLab/Book-VirusDynamics/code/Python_ipynb/09_01.ipynb)
 -->
-  - [R (notebook)](./code/R_ipynb/09_01.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NU-iBLab/Book-VirusDynamics/code/R_ipynb/09_01.ipynb)
+  - [R (notebook)](./code/R_ipynb/09_01.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NU-iBLab/Book-VirusDynamics/blob/main/code/R_ipynb/09_01.ipynb)
 
 <!--
   - [R](./code/R/09_01.R)
